@@ -1,21 +1,24 @@
 # Site/SEO settings
-email: 
+email: angel@contrerasangel.com
 permalink: /:year/:month/:day/:title/
-google_analytics: 
+google_analytics: UA-125393232-1
 
-title: Trophy
-description: 
-url: ""
+title: Angel C's Blog
+description: Simple Description
+url: "https://angel-contreras.com"
 baseurl: ""
-twitter_username: 
+twitter_username: angelfretz23
 default_img: 
 
 # Profile settings
-name: 
-profile_img: 
-profile: 
+name: Angel Contreras
+profile_img: "/assets/img/profile-img.jpg"
+profile: Born and raised in Southern California. I am a Software Engineer at Ticketmaster, an adaquet foosball player, and superb chess master. I like to think of myself as a taco to code converter.
 social:
-  github: 
+  github: https://github.com/angelfretz23
+  instagram: https://www.instagram.com/angelc0123/
+  linkedin-square: https://www.linkedin.com/in/angel-contreras/
+    
 
 # Build settings
 markdown: kramdown
@@ -34,6 +37,8 @@ exclude:
   - Gemfile.lock
   - LICENSE.txt
   - README.md
+  - .firebaserc
+  - firebase.json
 
 # Pagination
 paginate: 5
