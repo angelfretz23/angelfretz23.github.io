@@ -9,9 +9,9 @@
     <main>
             <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="section-padding--lg mast rellax" data-rellax-speed="-4">
-        <a class="nav nav--white" href="/">
-            <i class="fa fa-lg fa-home"></i>
-          <span>Home</span>
+        <a class="nav nav--white" href="/blog">
+            <i class="fa fa-lg fa-book"></i>
+          <span>Blog</span>
         </a>
         <figure class="absolute-bg mast__img lead" style="background-image: url('{{ page.image }}');"></figure>
         <div class="mast__container">
@@ -134,32 +134,9 @@
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            {% for skill in page.skills %}
+            <li>{{ skill }}</li>
+            {% endfor %}
         </ul>
     </div>
     <!-- End #skills -->

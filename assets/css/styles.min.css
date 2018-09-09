@@ -58,7 +58,7 @@ body {
   }
 }
 
-/* header {
+header {
   position: absolute;
   top: 0;
   left: 0;
@@ -69,9 +69,9 @@ body {
   animation-iteration-count: 1;
   animation-timing-function: ease;
   animation-duration: 0.75s
-} */
+} 
 
-/* header ul {
+header ul {
   display: inline-block;
   background: #fff;
   text-align: center;
@@ -149,7 +149,7 @@ header.sticky {
 
 #mobile-menu-close i {
   vertical-align: middle
-} */
+}
 
 footer {
   padding: 50px 0
@@ -782,9 +782,8 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-  /* header {
+  header {
     position: fixed;
-    display: none;
     z-index: 999;
     animation: none;
     bottom: 0;
@@ -807,7 +806,7 @@ footer {
   #menu li {
     display: block;
     margin-bottom: 10px
-  } */
+  }
 
   #lead-content h1 {
     font-size: 2em
